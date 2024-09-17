@@ -200,6 +200,8 @@ additionalPrometheusRulesMap: {}
        expr: 100 * my_record
      - record: my_record1
        expr: 100 * my_record       
+     - record: my_record2
+       expr: 100 * my_record         
 
 ##
 global:
